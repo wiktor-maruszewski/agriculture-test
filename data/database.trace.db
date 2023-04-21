@@ -4,3 +4,30 @@ select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u
 2023-04-21 04:28:37 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
 select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
+2023-04-21 04:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERR" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.address,u1_0.category,u1_0.email,u1_0.hire_date,u1_0.pesel,u1_0.phone_number,u1_0.qualifications,u1_0.task_amount,u1_0.type,u1_0.zip_code from userr u1_0 [42104-214]
