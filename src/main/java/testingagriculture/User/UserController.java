@@ -10,15 +10,12 @@ import java.util.List;
 @RestController
 @RequestMapping(path="api/v1/user")
 public class UserController {
-    private final UserService userService;
 
     @Autowired
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
+    private UserRepository userRepository;
 
-    @GetMapping
-    public List<User> GetUsers() {
-        return userService.GetUsers();
+    @GetMapping("")
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
     }
 }

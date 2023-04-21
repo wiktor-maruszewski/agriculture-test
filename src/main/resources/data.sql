@@ -1,0 +1,2 @@
+INSERT INTO userr (id, category, type, task_amount, hire_date, pesel, email, phone_number, qualifications, address, zip_code) 
+VALUES (1, 'rolnik', 'stały', 5, "2020-01-01", '12345678901', 'jan.kowalski@example.com', '123456789', 'obsługa maszyn rolniczych, uprawa roślin', 'Kowalewo, Wiejska 1', '12-345');
