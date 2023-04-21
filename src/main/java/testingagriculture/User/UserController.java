@@ -17,6 +17,6 @@ public class UserController {
     @GetMapping(path = "/users", produces = "application/json")
     @ResponseBody
     public List<User> getUsers() {
-        return userService.findAllUsers();
+        return userRepository.findAll();
     }
 }
