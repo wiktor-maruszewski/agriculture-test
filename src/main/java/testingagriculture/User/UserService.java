@@ -32,4 +32,22 @@ public class UserService {
         userRepository.deleteById(id);
     }
 
+    public void updateUser(Long id, User user) {
+        User existingUser = userRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("User not found with id " + id));
+
+        existingUser.setCategory(user.getCategory());
+        existingUser.setType(user.getType());
+        existingUser.setTaskAmount(user.getTaskAmount());
+        existingUser.setHireDate(user.getHireDate());
+        existingUser.setPesel(user.getPesel());
+        existingUser.setEmail(user.getEmail());
+        existingUser.setPhoneNumber(user.getPhoneNumber());
+        existingUser.setQualifications(user.getQualifications());
+        existingUser.setAddress(user.getAddress());
+        existingUser.setZipCode(user.getZipCode());
+
+        userRepository.save(existingUser);
+    }
+
 }

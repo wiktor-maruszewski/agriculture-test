@@ -76,19 +76,19 @@ public class User {
         this.type = type;
     }
 
-    public Integer getTask_amount() {
+    public Integer getTaskAmount() {
         return task_amount;
     }
 
-    public void setTask_amount(Integer task_amount) {
+    public void setTaskAmount(Integer task_amount) {
         this.task_amount = task_amount;
     }
 
-    public LocalDate getHire_date() {
+    public LocalDate getHireDate() {
         return hire_date;
     }
 
-    public void setHire_date(LocalDate hire_date) {
+    public void setHireDate(LocalDate hire_date) {
         this.hire_date = hire_date;
     }
 
@@ -108,11 +108,11 @@ public class User {
         this.email = email;
     }
 
-    public String getPhone_number() {
+    public String getPhoneNumber() {
         return phone_number;
     }
 
-    public void setPhone_number(String phone_number) {
+    public void setPhoneNumber(String phone_number) {
         this.phone_number = phone_number;
     }
 
@@ -132,11 +132,11 @@ public class User {
         this.address = address;
     }
 
-    public String getZip_code() {
+    public String getZipCode() {
         return zip_code;
     }
 
-    public void setZip_code(String zip_code) {
+    public void setZipCode(String zip_code) {
         this.zip_code = zip_code;
     }
 
