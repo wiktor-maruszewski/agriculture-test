@@ -36,6 +36,9 @@ public class UserService {
         User existingUser = userRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("User not found with id " + id));
 
+        existingUser.setName(user.getName());
+        existingUser.setSurname(user.getSurname());
+        existingUser.setPassword(user.getPassword());
         existingUser.setCategory(user.getCategory());
         existingUser.setType(user.getType());
         existingUser.setTaskAmount(user.getTaskAmount());

@@ -11,6 +11,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String name;
+    private String surname;
+    private String password;
     private String category;
     private String type;
     private Integer task_amount;
@@ -25,8 +28,11 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String category, String type, Integer task_amount, LocalDate hire_date, String pesel, String email, String phone_number, String qualifications, String address, String zip_code) {
+    public User(Long id, String name, String surname, String password, String category, String type, Integer task_amount, LocalDate hire_date, String pesel, String email, String phone_number, String qualifications, String address, String zip_code) {
         this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.password = password;
         this.category = category;
         this.type = type;
         this.task_amount = task_amount;
@@ -40,6 +46,9 @@ public class User {
     }
 
     public User(String category, String type, Integer task_amount, LocalDate hire_date, String pesel, String email, String phone_number, String qualifications, String address, String zip_code) {
+        this.name = name;
+        this.surname = surname;
+        this.password = password;
         this.category = category;
         this.type = type;
         this.task_amount = task_amount;
@@ -138,6 +147,30 @@ public class User {
 
     public void setZipCode(String zip_code) {
         this.zip_code = zip_code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
