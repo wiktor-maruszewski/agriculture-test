@@ -48,4 +48,14 @@ public class UserController {
         userService.updateUser(id, user);
         return ResponseEntity.ok().body(user);
     }
+
+    @PostMapping(path = "/users/check", produces = "application/json")
+    public ResponseEntity<User> check(@Valid @RequestBody User user) {
+        User existingUser = userRepository.findByName(user.getName());
+        //if (existingUser == null) {
+        //    return ResponseEntity.badRequest().body(null);
+        //}
+        return ResponseEntity.ok(user);
+    }
+
 }
