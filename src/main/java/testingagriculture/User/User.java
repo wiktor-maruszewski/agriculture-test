@@ -45,7 +45,7 @@ public class User {
         this.zip_code = zip_code;
     }
 
-    public User(String category, String type, Integer task_amount, LocalDate hire_date, String pesel, String email, String phone_number, String qualifications, String address, String zip_code) {
+    public User(String category, String name, String surname, String password, String type, Integer task_amount, LocalDate hire_date, String pesel, String email, String phone_number, String qualifications, String address, String zip_code) {
         this.name = name;
         this.surname = surname;
         this.password = password;
